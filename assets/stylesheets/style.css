@@ -51,3 +51,45 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    background: blue;
+    height: 55px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 35%)) ;
+    grid-template-rows: 900px;
+    grid-auto-flow: row;
+    width: auto;
+    height: auto;
+    margin: 0 12px;
+    background: #1cd2d8;
+}
+
+main {
+    background: #aaa;
+}
+
+.comment {
+    background: #740f0f;
+}
+
+aside {
+    background: green;
+}
