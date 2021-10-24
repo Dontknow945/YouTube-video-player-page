@@ -316,10 +316,6 @@ aside h5 {
     margin-right: 24px;
 }
 
-.comment > img {
-    margin-right: 10px;
-}
-
 .comment h4 {
     display: inline;
     margin-right: 30px;
@@ -338,26 +334,20 @@ aside h5 {
     border-bottom: 2px solid #000;
 }
 
-.comment section {
-    margin-bottom: 20px;
-}
-
 .new-comment {
     display: grid;
     grid-template-columns: 58px 1fr;
     margin-bottom: 30px;
 }
 
-.comment-row {
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: 15px;
+.comment section {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 60px 1fr;
 }
 
-.comment-like,
-.more-respond {
-    margin-left: 58px;
-    margin-bottom: 10px;
+.comment-row {
+    margin-bottom: 15px;
 }
 
 .comment-info p {
@@ -373,12 +363,19 @@ aside h5 {
 .comment-like img {
     width: 24px;
     height: auto;
-    
+}
+
+.comment-like {
+    margin-bottom: 12px;
 }
 
 .more-respond p {
     color: #065fd4;
     font-weight: 600;
+}
+
+.more-respond img {
+    margin-right: 5px;
 }
 
 .dis-inline {
@@ -392,4 +389,5 @@ aside h5 {
 .avatar {
     border-radius: 50%;
     margin-right: 13px;
+    margin-top: 5px;
 }
