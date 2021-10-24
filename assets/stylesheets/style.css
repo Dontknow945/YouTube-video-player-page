@@ -67,6 +67,17 @@ html, body {
     background: #f9f9f9;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000;
+}
+
 /*
   ========================================
   Grid
